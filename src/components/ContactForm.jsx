@@ -282,7 +282,7 @@ export default function ContactForm() {
           gap: '10px',
           opacity: status === 'loading' ? 0.7 : 1,
           cursor: status === 'loading' ? 'not-allowed' : 'pointer',
-          boxShadow: '0 4px 20px rgba(0, 217, 255, 0.25)',
+          boxShadow: '0 4px 20px rgba(212, 175, 55, 0.25)',
           transition: 'transform var(--transition-fast), box-shadow var(--transition-fast)'
         }}
         className="form-submit-btn"
@@ -306,7 +306,7 @@ export default function ContactForm() {
         }
         .form-submit-btn:not(:disabled):hover {
           transform: translateY(-2px);
-          box-shadow: 0 6px 24px rgba(0, 217, 255, 0.45) !important;
+          box-shadow: 0 6px 24px rgba(212, 175, 55, 0.45) !important;
         }
         .spinner {
           animation: spin 1s linear infinite;

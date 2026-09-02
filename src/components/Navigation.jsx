@@ -119,7 +119,7 @@ export default function Navigation() {
                 padding: '10px 20px',
                 border: '1px solid var(--border-primary)',
                 borderRadius: 'var(--radius-md)',
-                backgroundColor: 'rgba(0, 217, 255, 0.05)',
+                backgroundColor: 'rgba(212, 175, 55, 0.05)',
                 color: 'var(--text-primary)',
                 letterSpacing: '0.5px',
                 transition: 'border-color var(--transition-fast), background-color var(--transition-fast)'
@@ -173,7 +173,7 @@ export default function Navigation() {
         }
         .cta-button-hover:hover {
           border-color: var(--accent-primary) !important;
-          background-color: rgba(0, 217, 255, 0.15) !important;
+          background-color: rgba(212, 175, 55, 0.15) !important;
         }
       `}</style>
     </>

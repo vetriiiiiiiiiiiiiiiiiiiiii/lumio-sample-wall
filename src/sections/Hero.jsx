@@ -189,7 +189,7 @@ export default function Hero({ isLoaded }) {
                   fontWeight: 'bold',
                   fontSize: '0.95rem',
                   letterSpacing: '0.5px',
-                  boxShadow: '0 4px 20px rgba(0, 217, 255, 0.3)',
+                  boxShadow: '0 4px 20px rgba(212, 175, 55, 0.3)',
                   transition: 'transform var(--transition-fast), boxShadow var(--transition-fast)',
                   textAlign: 'center'
                 }}
@@ -237,11 +237,11 @@ export default function Hero({ isLoaded }) {
         }
         .btn-primary-hover:hover {
           transform: translateY(-2px);
-          box-shadow: 0 6px 24px rgba(0, 217, 255, 0.5) !important;
+          box-shadow: 0 6px 24px rgba(212, 175, 55, 0.5) !important;
         }
         .btn-secondary-hover:hover {
           border-color: var(--accent-secondary) !important;
-          background-color: rgba(0, 217, 255, 0.1) !important;
+          background-color: rgba(212, 175, 55, 0.1) !important;
         }
         @media (max-width: 576px) {
           .hero-cta-wrap a {

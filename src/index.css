@@ -7,19 +7,19 @@
   --surface-primary: #101010;
   --surface-elevated: #161616;
   
-  --accent-primary: #00D9FF; /* Electric Blue / Cyan */
-  --accent-secondary: #5BE7FF; /* Bright Cyan */
-  --accent-soft: rgba(0, 217, 255, 0.15);
-  --accent-glow: rgba(0, 217, 255, 0.3);
+  --accent-primary: #D4AF37; /* Electric Blue / Cyan */
+  --accent-secondary: #1E3A2B; /* Bright Cyan */
+  --accent-soft: rgba(212, 175, 55, 0.15);
+  --accent-glow: rgba(212, 175, 55, 0.3);
   
   --text-primary: #FFFFFF;
   --text-secondary: #a0a0a0;
   --text-muted: #606060;
   
-  --border-primary: rgba(0, 217, 255, 0.2);
-  --border-active: rgba(91, 231, 255, 0.5);
+  --border-primary: rgba(212, 175, 55, 0.2);
+  --border-active: rgba(30, 58, 43, 0.5);
   
-  --focus-ring: #00D9FF;
+  --focus-ring: #D4AF37;
   --error: #f87171;
   --success: #34d399;
   
@@ -44,8 +44,8 @@
 
   /* Elevation Shadows */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.5);
-  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 217, 255, 0.15);
-  --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 217, 255, 0.2);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.6), 0 0 1px rgba(212, 175, 55, 0.15);
+  --shadow-lg: 0 10px 40px rgba(0, 0, 0, 0.8), 0 0 15px rgba(212, 175, 55, 0.2);
 
   /* Animation Tokens */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
@@ -186,7 +186,7 @@ button {
 
 .glass-panel:hover {
   border-color: var(--border-active);
-  box-shadow: 0 10px 30px rgba(0, 217, 255, 0.15);
+  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
 }
 
 /* Layout Reset of #root for Fullscreen Experience */

@@ -7,36 +7,36 @@ gsap.registerPlugin(ScrollTrigger);
 const highlightCards = [
   {
     title: "Creative Development",
-    desc: "Blending real-time WebGL, GSAP physics, and custom canvas shaders to build bespoke, memorable digital worlds."
+    desc: "Seamlessly blending aesthetic vision with interactive front-end code to create harmonious digital experiences."
+  },
+  {
+    title: "UI/UX Design",
+    desc: "Designing and structuring bespoke user interfaces that perfectly suit your brand's lifestyle and audience."
   },
   {
     title: "Full Stack Engineering",
-    desc: "Architecting robust backend services, Supabase & PostgreSQL database models, and scalable Node.js cloud APIs."
+    desc: "Building robust, scalable backends to maximize both functionality and speed, ensuring apps that perform flawlessly."
   },
   {
-    title: "Interactive Experiences",
-    desc: "Designing tactile micro-interactions, responsive 3D viewports, and scrollytelling mechanics that captivate users."
+    title: "Product Management",
+    desc: "Overseeing development, testing, and deployment to ensure your product is shipped flawlessly, on time and on budget."
   },
   {
-    title: "Performance First",
-    desc: "Optimizing Core Web Vitals to sustain smooth 60FPS canvas animations and instantaneous edge hydration."
+    title: "3D & Motion",
+    desc: "Providing immersive WebGL renders and virtual interactions so users can experience your brand in three dimensions."
   },
   {
-    title: "Modern Technologies",
-    desc: "Leveraging React, Next.js, TypeScript, Three.js, and modern cloud architecture for enduring technical quality."
-  },
-  {
-    title: "User-Centered Design",
-    desc: "Translating complex product requirements into clean, accessible, and human-centric visual interfaces."
+    title: "Brand Identity",
+    desc: "Curating the perfect blend of typography, color, and motion to add the final layer of personality to your digital home."
   }
 ];
 
 const stats = [
-  { value: "15+", label: "Projects Completed" },
-  { value: "18+", label: "Technologies Used" },
-  { value: "25+", label: "Interactive Experiences Built" },
-  { value: "1,500+", label: "GitHub Contributions" },
-  { value: "5+", label: "Years of Dedicated Learning" }
+  { value: "120+", label: "Projects Completed" },
+  { value: "15+", label: "Industry Awards" },
+  { value: "10", label: "Years in Business" },
+  { value: "25+", label: "Expert Designers" },
+  { value: "100%", label: "Client Satisfaction" }
 ];
 
 export default function About() {
@@ -144,7 +144,7 @@ export default function About() {
                 marginBottom: '16px'
               }}
             >
-              ABOUT SHAN // CREATIVE FULL STACK DEVELOPER
+              ABOUT LUMMIO DIGITAL
             </p>
 
             {/* 2. Large heading */}
@@ -156,8 +156,8 @@ export default function About() {
                 marginBottom: '28px'
               }}
             >
-              Building Immersive Digital Experiences.<br />
-              <span className="text-gradient-purple">Where Design, Motion, and Engineering Become One.</span>
+              Designing Spaces That Tell A Story.<br />
+              <span className="text-gradient-purple">Where Form, Function, and Elegance Become One.</span>
             </h2>
 
             {/* 3. Premium Paragraphs */}
@@ -170,7 +170,7 @@ export default function About() {
                 fontWeight: 300
               }}
             >
-              I am Shan, a Creative Full Stack Developer based in India. I specialize in building immersive digital experiences rather than ordinary websites—combining visual storytelling, 3D WebGL viewports, and resilient backend architecture into unified web applications.
+              Lumio Interiors is an award-winning design firm specializing in high-end residential and commercial spaces. We believe that your environment profoundly impacts your well-being, and our approach centers on creating sanctuaries that reflect your unique lifestyle.
             </p>
             <p
               style={{
@@ -181,7 +181,7 @@ export default function About() {
                 fontWeight: 300
               }}
             >
-              Drawing inspiration from Apple, Stripe, Linear, Framer, and Awwwards-winning standards, I write clean, intentional code engineered for fluidity and speed. From interactive canvas scenes to high-concurrency cloud APIs, every layer of my work is focused on precision and technical excellence.
+              From conceptual sketches and space planning to custom millwork and final styling, we handle every detail with precision. We collaborate with skilled artisans, premium suppliers, and trusted contractors to ensure every design is executed to perfection.
             </p>
             <p
               style={{
@@ -192,7 +192,7 @@ export default function About() {
                 fontWeight: 300
               }}
             >
-              I bridge the gap between creative design and complex full stack engineering—ensuring interfaces feel alive, responsive, and uncompromisingly fast on every device.
+              We bridge the gap between visionary digital design and flawless technical execution—ensuring every digital experience feels intentional, premium, and unmistakably yours.
             </p>
 
             {/* 4. Personal Mission Statement */}
@@ -229,7 +229,7 @@ export default function About() {
                   fontWeight: 400
                 }}
               >
-                "My goal is to create digital experiences that are visually stunning, technically robust, and memorable. Every project should combine beautiful design, smooth interactions, scalable architecture, and exceptional user experience."
+                "Our mission is to elevate the human experience through thoughtful, innovative, and beautiful digital design. We strive to create web experiences and applications that are not just visually stunning, but deeply performant and inherently usable."
               </p>
             </div>
           </div>
@@ -374,13 +374,13 @@ export default function About() {
         >
           {/* Skills Summary Tag */}
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '10px' }}>
-            {['Full Stack Development', 'Creative Development', 'Interactive UI', 'Scrollytelling', '3D Web Experiences', 'Motion Design', 'Premium UI', 'Performance Optimization', 'Modern Web Architecture'].map(skill => (
+            {['Interactive Web Experiences', 'Full Stack Architecture', 'UX/UI Design', 'Custom WebGL', 'E-Commerce Solutions', 'Motion Design', 'Brand Identity', 'SEO Optimization'].map(skill => (
               <span
                 key={skill}
                 style={{
                   fontSize: '0.82rem',
                   padding: '6px 14px',
-                  backgroundColor: 'rgba(0, 217, 255, 0.08)',
+                  backgroundColor: 'rgba(212, 175, 55, 0.08)',
                   border: '1px solid var(--border-primary)',
                   borderRadius: 'var(--radius-full)',
                   color: 'var(--accent-secondary)',
@@ -403,7 +403,7 @@ export default function About() {
               letterSpacing: '0.5px'
             }}
           >
-            "I don't just build for the web — I shape how digital interactions feel."
+            "We don't just build websites — we design digital experiences."
           </p>
         </div>
       </div>

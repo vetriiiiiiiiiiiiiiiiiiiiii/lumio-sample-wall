@@ -156,7 +156,7 @@ export default function CreatorBuilder() {
                   fontFamily: 'var(--font-heading)',
                   fontSize: '2.5rem',
                   fontWeight: 700,
-                  color: 'rgba(0, 217, 255, 0.15)',
+                  color: 'rgba(212, 175, 55, 0.15)',
                   lineHeight: 1,
                 }}
               >

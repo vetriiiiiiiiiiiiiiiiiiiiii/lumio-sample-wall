@@ -45,7 +45,7 @@ export default function Contact() {
   }, []);
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('contact@shan.dev');
+    navigator.clipboard.writeText('hello@lumiointeriors.com');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -96,7 +96,7 @@ export default function Contact() {
               }}
             >
               <span className="pulse-dot" style={{ width: '8px', height: '8px', backgroundColor: 'var(--accent-primary)', borderRadius: '50%', display: 'inline-block' }}></span>
-              Open for select projects & full stack commissions
+              Accepting new residential and commercial clients
             </div>
 
             <p
@@ -120,8 +120,8 @@ export default function Contact() {
                 marginBottom: '24px'
               }}
             >
-              Let's Build Something<br />
-              <span className="text-gradient-purple">People Remember.</span>
+              Let's Design Something<br />
+              <span className="text-gradient-purple">Extraordinary.</span>
             </h2>
             <p
               style={{
@@ -133,7 +133,7 @@ export default function Contact() {
                 maxWidth: '560px'
               }}
             >
-              Whether it's an immersive portfolio, premium product website, or scalable full stack application, I'm always excited to create meaningful digital experiences.
+              Whether you are planning a full-scale renovation, a new commercial build, or simply need expert styling advice, our team is ready to bring your vision to life.
             </p>
 
             {/* Direct Email Card with Copy Trigger */}
@@ -153,7 +153,7 @@ export default function Contact() {
               </span>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px' }}>
                 <a
-                  href="mailto:contact@shan.dev"
+                  href="mailto:hello@lumiointeriors.com"
                   style={{
                     fontSize: 'clamp(1.1rem, 2vw, 1.35rem)',
                     color: 'var(--text-primary)',
@@ -163,7 +163,7 @@ export default function Contact() {
                   }}
                   className="contact-email-link"
                 >
-                  contact@shan.dev
+                  hello@lumiointeriors.com
                 </a>
                 <button
                   onClick={handleCopyEmail}
@@ -172,7 +172,7 @@ export default function Contact() {
                     padding: '6px 14px',
                     borderRadius: 'var(--radius-sm)',
                     border: '1px solid var(--border-primary)',
-                    backgroundColor: 'rgba(0, 217, 255, 0.1)',
+                    backgroundColor: 'rgba(212, 175, 55, 0.1)',
                     color: 'var(--accent-secondary)',
                     fontWeight: 600,
                     letterSpacing: '0.5px',
@@ -192,7 +192,7 @@ export default function Contact() {
                   Location
                 </span>
                 <span style={{ fontSize: '0.95rem', color: 'var(--text-primary)', fontWeight: 500 }}>
-                  India 🇮🇳 (UTC +5:30)
+                  New York, USA
                 </span>
               </div>
 
@@ -202,34 +202,34 @@ export default function Contact() {
                 </span>
                 <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
                   <a
-                    href="https://github.com"
+                    href="https://instagram.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ fontSize: '0.95rem', color: 'var(--text-secondary)' }}
                     className="contact-item-hover"
-                    aria-label="GitHub Profile"
+                    aria-label="Instagram Profile"
                   >
-                    GitHub
+                    Instagram
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://houzz.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ fontSize: '0.95rem', color: 'var(--text-secondary)' }}
                     className="contact-item-hover"
-                    aria-label="LinkedIn Profile"
+                    aria-label="Houzz Profile"
                   >
-                    LinkedIn
+                    Houzz
                   </a>
                   <a
-                    href="https://twitter.com"
+                    href="https://pinterest.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ fontSize: '0.95rem', color: 'var(--text-secondary)' }}
                     className="contact-item-hover"
-                    aria-label="Twitter Profile"
+                    aria-label="Pinterest Profile"
                   >
-                    Twitter / X
+                    Pinterest
                   </a>
                 </div>
               </div>
@@ -257,7 +257,7 @@ export default function Contact() {
         }
         .copy-btn-hover:hover {
           border-color: var(--accent-secondary) !important;
-          background-color: rgba(0, 217, 255, 0.2) !important;
+          background-color: rgba(212, 175, 55, 0.2) !important;
         }
       `}</style>
     </section>

@@ -15,7 +15,7 @@ const TearLineSVG = ({ svgPathData, pathLength, strokeDashoffset, pathRef }) => 
       ref={pathRef}
       d={svgPathData}
       fill="none"
-      stroke="#1a1a1a"
+      stroke="#D4AF37"
       strokeWidth="0.1"
       strokeLinecap="round"
       strokeLinejoin="round"

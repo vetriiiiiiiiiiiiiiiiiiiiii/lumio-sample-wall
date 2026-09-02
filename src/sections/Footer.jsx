@@ -52,13 +52,13 @@ export default function Footer() {
                 letterSpacing: '1.5px'
               }}
             >
-              SHAN
+              LUMIO INTERIORS
             </h3>
             <p style={{ fontSize: '0.85rem', color: 'var(--accent-primary)', margin: '0 0 8px', letterSpacing: '1px', textTransform: 'uppercase', fontWeight: 600 }}>
-              Creative Full Stack Developer
+              Premium Interior Architecture & Design
             </p>
             <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)', margin: 0, maxWidth: '400px', fontWeight: 300 }}>
-              Building immersive digital experiences with modern technologies.
+              Transforming spaces. Elevating lifestyles.
             </p>
           </div>
 
@@ -76,7 +76,7 @@ export default function Footer() {
         {/* Bottom half */}
         <div
           style={{
-            borderTop: '1px solid rgba(0, 217, 255, 0.08)',
+            borderTop: '1px solid rgba(212, 175, 55, 0.08)',
             paddingTop: '20px',
             display: 'flex',
             flexDirection: 'column',
@@ -89,10 +89,10 @@ export default function Footer() {
           className="footer-bottom-row"
         >
           <div>
-            &copy; {currentYear} Shan. All rights reserved.
+            &copy; {currentYear} Lumio Interiors. All rights reserved.
           </div>
           <div>
-            Designed with intention. Engineered for performance.
+            Designed with intention. Crafted for living.
           </div>
         </div>
 

@@ -1,27 +1,41 @@
-export const skillsData = [
-  {
-    category: "Frontend",
-    description: "Architecting interactive, responsive, and performance-first web platforms.",
-    skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Next.js"]
-  },
-  {
-    category: "Animation",
-    description: "Crafting fluid scrollytelling physics, 3D web scenes, and micro-interactions.",
-    skills: ["GSAP", "Framer Motion", "Lenis", "Three.js", "React Three Fiber"]
-  },
-  {
-    category: "Backend",
-    description: "Engineering scalable backend architectures, cloud APIs, and media delivery pipelines.",
-    skills: ["Node.js", "Express.js", "Supabase", "Firebase", "REST APIs", "Cloudinary"]
-  },
-  {
-    category: "Database",
-    description: "Designing relational database schemas and cloud data storage layers.",
-    skills: ["PostgreSQL", "Supabase"]
-  },
-  {
-    category: "Tools",
-    description: "Utilizing modern developer environments, AI engineering workflows, and deployment tools.",
-    skills: ["Git", "GitHub", "Figma", "VS Code", "Cursor AI", "Claude", "ChatGPT", "Vercel"]
-  }
-];
+export const skills = {
+  core: [
+    { name: "Space Planning", level: 95 },
+    { name: "Interior Architecture", level: 90 },
+    { name: "3D Visualization", level: 85 },
+    { name: "Custom Millwork", level: 88 },
+    { name: "Material Sourcing", level: 92 },
+    { name: "Project Management", level: 90 },
+  ],
+  tools: [
+    { name: "AutoCAD", icon: "architecture" },
+    { name: "SketchUp", icon: "box" },
+    { name: "Revit", icon: "building" },
+    { name: "3ds Max", icon: "monitor" },
+    { name: "V-Ray", icon: "sun" },
+    { name: "Adobe Creative Suite", icon: "pen-tool" },
+    { name: "Figma", icon: "figma" },
+  ],
+  services: [
+    {
+      title: "Residential Design",
+      description: "Bespoke interior design for luxury homes, apartments, and private residences.",
+      icon: "home"
+    },
+    {
+      title: "Commercial & Hospitality",
+      description: "Creating engaging, functional spaces for offices, boutique hotels, and retail.",
+      icon: "briefcase"
+    },
+    {
+      title: "3D Rendering & VR",
+      description: "Photorealistic visualizations to help you walk through your space before construction begins.",
+      icon: "eye"
+    },
+    {
+      title: "Furniture & Styling",
+      description: "Curating the perfect blend of custom furniture, art, and accessories to complete your space.",
+      icon: "layout"
+    }
+  ]
+};

@@ -352,7 +352,7 @@ const IntroMilestone = ({ z, scrollProgressRef }) => {
                 anchorY="middle"
                 font="/fonts/RubikScribble-Regular.ttf"
             >
-                SHAN
+                LUMMIO
             </Text>
 
             {/* Subtitle - Brand (spreads right) */}
@@ -365,7 +365,7 @@ const IntroMilestone = ({ z, scrollProgressRef }) => {
                 anchorY="middle"
                 font="/fonts/CabinSketch-Bold.ttf"
             >
-                CREATIVE FULL STACK DEVELOPER
+                CREATIVE FULL STACK AGENCY
             </Text>
 
             {/* Avatar on cloud - floating + spreads up-left */}
@@ -441,7 +441,7 @@ const AWARDS_DATA = {
             { label: 'Responsive Mobile-First Interfaces', date: 'Active', image: '/textures/about/button.webp', url: '#' }
         ],
         platformConfig: {
-            label: 'DEVELOPER',
+            label: 'AGENCY',
             color: '#00D9FF',
             icon: '💻'
         }
@@ -682,7 +682,7 @@ const AwardsMilestone = ({ z, scrollProgressRef }) => {
                     anchorY="middle"
                     font="/fonts/CabinSketch-Bold.ttf"
                 >
-                    DEVELOPER
+                    AGENCY
                 </Text>
                 {/* CAPACITY SUBTITLE */}
                 <Text

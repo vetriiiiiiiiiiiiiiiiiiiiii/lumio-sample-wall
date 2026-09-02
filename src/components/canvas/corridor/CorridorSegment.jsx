@@ -116,26 +116,26 @@ const CorridorSegment = ({
                 zClip={zClip}
             />
 
-            {/* === SHAN.DEV BRAND SIGN ON SIDE WALL === */}
+            {/* === Lumio.DEV BRAND SIGN ON SIDE WALL === */}
             <Text
                 position={[-3.46, 0.4, zOffset - 8]}
                 rotation={[0, Math.PI / 2, 0]}
                 fontSize={0.32}
-                color="#1a1a1a"
+                color="#D4AF37"
                 anchorX="center"
                 anchorY="middle"
                 font="/fonts/CabinSketch-Bold.ttf"
             >
-                SHAN.DEV
+                LUMIO INTERIORS
             </Text>
 
             {/* === WELCOME AREA (Start of segment) - MOVED CLOSER === */}
             <group position={[0, 0, zOffset - 2]}>
-                {/* SHAN 3D Header - Floating above avatar */}
+                {/* Lumio 3D Header - Floating above avatar */}
                 <HeroText position={[0, 0.85, -0.5]} />
 
                 {/* Avatar - center */}
-                <Avatar position={[0, -0.61, -0.3]} />
+                {/* Avatar Removed */}
 
 
                 {/* Doodles around avatar */}

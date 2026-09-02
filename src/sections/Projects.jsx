@@ -103,7 +103,7 @@ export default function Projects() {
               fontWeight: 300
             }}
           >
-            A curated portfolio of spatial product reveals, high-performance automotive platforms, editorial luxury experiences, and full stack ecommerce engines.
+            A curated showcase of spatial product reveals, high-performance automotive platforms, editorial luxury experiences, and full stack ecommerce engines.
           </p>
         </div>
 

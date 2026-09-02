@@ -256,8 +256,8 @@ export default function CaseStudyModal({ projectId, onClose }) {
                     style={{
                       fontSize: '0.85rem',
                       padding: '6px 12px',
-                      background: 'rgba(0, 217, 255, 0.1)',
-                      border: '1px solid rgba(0, 217, 255, 0.2)',
+                      background: 'rgba(212, 175, 55, 0.1)',
+                      border: '1px solid rgba(212, 175, 55, 0.2)',
                       color: 'var(--accent-secondary)',
                       borderRadius: 'var(--radius-sm)',
                     }}

@@ -1,38 +1,50 @@
-export const journeyData = [
+export const journey = [
   {
-    phase: "Stage 01",
-    title: "Frontend Foundations",
-    period: "Foundational Phase",
-    description: "Deep dive into native web engineering. Mastered semantic HTML5 architecture, modern CSS3 layout algorithms, native ES6+ JavaScript execution, and responsive design systems."
+    year: "2024",
+    title: "International Expansion",
+    company: "Lumio Interiors",
+    description: "Expanded our design services internationally, completing our first major residential project in Europe and opening a satellite office in London.",
+    icon: "globe",
+    achievements: [
+      "Completed 10,000 sq ft luxury villa in Spain",
+      "Featured in Architectural Digest Global",
+      "Grew team to 25 designers and architects"
+    ]
   },
   {
-    phase: "Stage 02",
-    title: "Modern React Ecosystem",
-    period: "Architecture Phase",
-    description: "Expanded into scalable component architecture. Developed expertise in React hooks, Next.js server rendering, state management paradigms, custom hooks, and modern frontend routing."
+    year: "2022",
+    title: "Best Commercial Space Award",
+    company: "Design Excellence Awards",
+    description: "Recognized for our innovative work on the 'Tech Hub Corporate Office', winning the prestigious Best Commercial Workspace award.",
+    icon: "award",
+    achievements: [
+      "Won Design Excellence Award 2022",
+      "Pioneered new biophilic design standards",
+      "Completed 5 major commercial projects"
+    ]
   },
   {
-    phase: "Stage 03",
-    title: "Creative Development",
-    period: "Specialization Phase",
-    description: "Pioneered interactive scrollytelling and motion physics. Mastered GSAP ScrollTrigger timeline orchestration, Lenis smooth scrolling, Three.js 3D viewport rendering, and WebGL fragment shaders."
+    year: "2019",
+    title: "Studio Expansion & Rebrand",
+    company: "Lumio Interiors",
+    description: "Rebranded to Lumio Interiors and moved into our new 5,000 sq ft design studio and material library in the design district.",
+    icon: "briefcase",
+    achievements: [
+      "Opened flagship design studio",
+      "Launched custom furniture line",
+      "Established dedicated 3D visualization team"
+    ]
   },
   {
-    phase: "Stage 04",
-    title: "Full Stack Applications",
-    period: "Full Stack Phase",
-    description: "Integrated backend engineering pipelines. Engineered Node.js & Express APIs, relational PostgreSQL data schemas with Supabase, cloud media pipelines via Cloudinary, and secure auth layers."
-  },
-  {
-    phase: "Stage 05",
-    title: "Award-Level Interactive Experiences",
-    period: "Flagship Phase",
-    description: "Engineered flagship showcase digital experiences including Apple Vision Pro spatial interactive experience, BMW M4 GT3 EVO telemetry showcase, and bespoke fashion ecommerce platforms."
-  },
-  {
-    phase: "Stage 06",
-    title: "Freelance Creative Developer",
-    period: "Present Phase",
-    description: "Partnering with visionary brands, agencies, and founders globally to design and engineer immersive digital experiences that merge storytelling, animation, 3D graphics, and scalable full stack code."
+    year: "2015",
+    title: "Studio Founded",
+    company: "Lumio Interiors (Formerly Boutique Designs)",
+    description: "Founded by a team of passionate architects and interior designers with a vision to create timeless, functional, and beautiful spaces.",
+    icon: "home",
+    achievements: [
+      "Secured first major residential commission",
+      "Built initial network of premium artisans and contractors",
+      "Established core design philosophy"
+    ]
   }
 ];

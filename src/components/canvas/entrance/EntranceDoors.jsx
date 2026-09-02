@@ -626,10 +626,10 @@ const EntranceDoors = ({
 
             {/* === CAPABILITY SIGN BANNERS ABOVE GATE === */}
             {[
-                { text: "Creative Dev", x: -1.8 },
-                { text: "Frontend Eng", x: -0.6 },
-                { text: "Full Stack", x: 0.6 },
-                { text: "3D & Motion", x: 1.8 }
+                { text: "Space Planning", x: -1.8 },
+                { text: "Custom Millwork", x: -0.6 },
+                { text: "Architecture", x: 0.6 },
+                { text: "3D Rendering", x: 1.8 }
             ].map((banner, index) => (
                 <group key={index} position={[banner.x, frameCenterY + 1.65, 0.2]}>
                     {/* Shadow / Border plane */}
@@ -688,7 +688,7 @@ const EntranceDoors = ({
                         anchorY="middle"
                         font="/fonts/CabinSketch-Bold.ttf"
                     >
-                        Full Stack 🚀
+                        Lumio Design
                     </Text>
                 </group>
 
@@ -709,7 +709,7 @@ const EntranceDoors = ({
                         anchorY="middle"
                         font="/fonts/CabinSketch-Bold.ttf"
                     >
-                        @shan.dev
+                        @lumiointeriors.com
                     </Text>
                 </group>
 
